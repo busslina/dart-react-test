@@ -5,7 +5,7 @@ import 'package:react/react_dom.dart';
 
 void main() {
   render(
-    appComponent,
+    appComponent({}),
     querySelector('#react_app_mount_point'),
   );
 }
